@@ -1,3 +1,10 @@
+.slide-wrapper {
+    display: flex;
+    align-items: center;
+    /* justify-content: center;  垂直居中 */
+    flex-direction: column;
+}
+
 .images-window {
     width: 400px;
     overflow: hidden;
