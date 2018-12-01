@@ -1,0 +1,23 @@
+.images-window {
+    width: 400px;
+    overflow: hidden;
+}
+
+.images {    
+    display: flex;
+    align-items: flex-start;
+    transition: transform 0.5s;
+}
+
+img {
+    /* flex默认会使用图片的高度，拉伸 */
+    /* height: 100%; */
+}
+
+.button span {
+    cursor: pointer;
+}
+
+.red {
+    color: red;
+}
