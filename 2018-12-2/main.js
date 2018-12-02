@@ -6,7 +6,7 @@ for (var i=0; i<$allBtn.length; i++) {
         // 使用 trigger 触发事件时，x.currentTarget为undefined
         // 获取此节点是其爸爸的第几个子元素：$('x').index()
         n = $theBtn.index()
-        var offset = n * (-400)
+        var offset = n * (-500)
         nextSlide($theBtn, offset)
     }
 }
@@ -39,6 +39,6 @@ function setTimer() {
     return setInterval(function () {
         n += 1
         activeBtn(n % size)
-    }, 3000)
+    }, 2000)
 
 }
